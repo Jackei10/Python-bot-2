@@ -1,0 +1,4 @@
+CREATE TABLE auth_tokens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    guild_id BIGINT NOT NULL
+);
